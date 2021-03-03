@@ -1,0 +1,84 @@
+.App {
+    text-align: center;
+  }
+    
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+  
+  * {
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font: 400 14px Roboto, sans-serif;
+    background-color: white;
+    -webkit-font-smoothing: antialiased;
+    justify-content: center;
+}
+
+
+
+input, button, textarea {
+  font: 400 18px, sans-serif, black;
+  text-decoration: none;
+  text-align: center;
+  
+}
+
+input {
+  height: 35px;
+  width: 180px;
+  border: 1px solid grey;
+  border-radius: 8px;
+  padding: 0 24px;
+  text-align: center;
+  background-color: lightgray;
+  margin-top: 5px;
+  border-color: darkgray;
+}
+
+form textarea {
+  height: 35px;
+  width: 225px;
+  border: 1px solid grey;
+  border-radius: 8px;
+  text-align: center;
+  background-color: lightgray;
+  margin-top: 5px;
+  border-color: darkgray;
+  text-justify:auto;
+}
+
+button {
+  width: 90px;
+  height: 30px;
+  margin-right: 10px;
+  background: #e02041;
+  border-radius: 8px;
+  color: black;
+  font-weight:  700;
+  margin-top: 16px;
+  text-align: center;
+}
+
